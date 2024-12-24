@@ -20,8 +20,8 @@ data
 ├── cuhk03
 │    └── cuhk03_release
 │        └── images ..
-├── MSMT17_V1
-│    └── Market-1501-v15.09.15
+├── msmt17v1
+│    └── MSMT17_V1
 │        └── images ..
 └── cuhk_sysu
 │    └── croppped_images
