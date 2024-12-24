@@ -41,7 +41,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main_vit.py -d msmt17v1 --dataset_src1 marke
 ```
 ## Evaluation
 ```
-CUDA_VISIBLE_DEVICES=0,1 python test_vit.py -d msmt17v1 --test-batch-size 256 --height 256 --width 128 -a vit_base --data-dir your dataset path --logs-dir your model path
+CUDA_VISIBLE_DEVICES=0,1,2,3 python test_vit.py -d msmt17v1 --test-batch-size 256 --height 256 --width 128 -a vit_base --data-dir your dataset path --logs-dir your model path
 ```
 ## Acknowledgement
 Our implementation is mainly based on the following codebases. We gratefully thank the authors for their wonderful works.</br>
